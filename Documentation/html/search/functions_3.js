@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['takedamage',['takeDamage',['../class_mob.html#af124fd088b64d10dde3eef2f5ec9f139',1,'Mob']]]
+  ['interact',['interact',['../class_mob.html#af89dfe24c4bea6d4fea6affd0b752c04',1,'Mob']]]
 ];

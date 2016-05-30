@@ -9,6 +9,12 @@ Living form moving and taking actions in the World.
 
 {\ttfamily \#include $<$Mob.\+h$>$}
 
+Inheritance diagram for Mob\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mob}
+\end{center}
+\end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -17,7 +23,7 @@ bool \hyperlink{class_mob_af124fd088b64d10dde3eef2f5ec9f139}{take\+Damage} (floa
 \begin{DoxyCompactList}\small\item\em reduce hp by amount of pure\+Damage reduced by \hyperlink{class_mob}{Mob} armor or skills, returns true if \hyperlink{class_mob}{Mob} died \end{DoxyCompactList}\item 
 void \hyperlink{class_mob_a07546ec7a5028846090157d51095904b}{die} ()\hypertarget{class_mob_a07546ec7a5028846090157d51095904b}{}\label{class_mob_a07546ec7a5028846090157d51095904b}
 
-\begin{DoxyCompactList}\small\item\em give gold to mobs that killed you, play death anim etc. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em give gold to mobs that killed this \hyperlink{class_mob}{Mob}, play death anim etc. \end{DoxyCompactList}\item 
 Goal \hyperlink{class_mob_ac949a1e6a9a60efd432adea5a4abdeb8}{decide\+What\+Next} ()\hypertarget{class_mob_ac949a1e6a9a60efd432adea5a4abdeb8}{}\label{class_mob_ac949a1e6a9a60efd432adea5a4abdeb8}
 
 \begin{DoxyCompactList}\small\item\em after achieving goal think what\textquotesingle{}s your next goal(ie. if you completed quest either go rest if you are wounded or go to blacksmith to get better gear) \end{DoxyCompactList}\item 
@@ -26,7 +32,13 @@ Actor $\ast$ \hyperlink{class_mob_a80987418449007527dea30234099c301}{choose\+Tar
 \begin{DoxyCompactList}\small\item\em choose Actor matching your goal(ie. if you are going to grind, find hostile \hyperlink{class_mob}{Mob} with low level and high reward, if you are going to upgrade find adequate shop, if rest -\/ nearest inn) \end{DoxyCompactList}\item 
 void \hyperlink{class_mob_af89dfe24c4bea6d4fea6affd0b752c04}{interact} ()\hypertarget{class_mob_af89dfe24c4bea6d4fea6affd0b752c04}{}\label{class_mob_af89dfe24c4bea6d4fea6affd0b752c04}
 
-\begin{DoxyCompactList}\small\item\em interact with target(while you are close enough) -\/ enter the building or hit an enemy \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em interact with target(while you are close enough) -\/ enter the \hyperlink{class_construction}{Construction} or hit an enemy \end{DoxyCompactList}\item 
+void \hyperlink{class_mob_a014041e72f2c65a2eabe313e3f175de0}{enter} (\hyperlink{class_home}{Home} \hyperlink{class_mob_ad3824bdc42d4041e184201c7801ab35e}{home})\hypertarget{class_mob_a014041e72f2c65a2eabe313e3f175de0}{}\label{class_mob_a014041e72f2c65a2eabe313e3f175de0}
+
+\begin{DoxyCompactList}\small\item\em enter \hyperlink{class_home}{Home} \end{DoxyCompactList}\item 
+void \hyperlink{class_mob_aeac9e7dd6c5da44ad88f3458019c66ab}{exit} ()\hypertarget{class_mob_aeac9e7dd6c5da44ad88f3458019c66ab}{}\label{class_mob_aeac9e7dd6c5da44ad88f3458019c66ab}
+
+\begin{DoxyCompactList}\small\item\em exit \hyperlink{class_home}{Home} \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Protected Types}
 \begin{DoxyCompactItemize}
 \item 
@@ -34,7 +46,7 @@ enum \hyperlink{class_mob_a886346a9f913203df0797f2c84dd8962}{Goals} \{ \hyperlin
 \hyperlink{class_mob_a886346a9f913203df0797f2c84dd8962aa72b321b37507255070e236e133616f9}{grind}, 
 \hyperlink{class_mob_a886346a9f913203df0797f2c84dd8962a114d85e85d882dd8bf2be34208450b6c}{explore}, 
 \hyperlink{class_mob_a886346a9f913203df0797f2c84dd8962ac9be3f62a039d2a4c5a63146a03a307d}{upgrade}
- \}\begin{DoxyCompactList}\small\item\em Goals enum. \end{DoxyCompactList}
+ \}
 \end{DoxyCompactItemize}
 \subsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
@@ -44,27 +56,30 @@ string \hyperlink{class_mob_a1adcb405b2a4647bfb2471b1283b9477}{name}\hypertarget
 \begin{DoxyCompactList}\small\item\em name of this mob \end{DoxyCompactList}\item 
 \hyperlink{class_mob_a886346a9f913203df0797f2c84dd8962}{Goals} \hyperlink{class_mob_ad6c2e1b70a39551fd39b25002dac55b1}{goal}
 \begin{DoxyCompactList}\small\item\em goal this \hyperlink{class_mob}{Mob} is trying to achieve, \end{DoxyCompactList}\item 
-float {\bfseries hp\+Current}\hypertarget{class_mob_a5a84c7649f3774da15780caa9f21aabc}{}\label{class_mob_a5a84c7649f3774da15780caa9f21aabc}
+float \hyperlink{class_mob_a5a84c7649f3774da15780caa9f21aabc}{hp\+Current}\hypertarget{class_mob_a5a84c7649f3774da15780caa9f21aabc}{}\label{class_mob_a5a84c7649f3774da15780caa9f21aabc}
 
-\item 
-float {\bfseries hp\+Max}\hypertarget{class_mob_ac2a881584e2fa3224da656a775f17284}{}\label{class_mob_ac2a881584e2fa3224da656a775f17284}
+\begin{DoxyCompactList}\small\item\em how much hit points this \hyperlink{class_mob}{Mob} has \end{DoxyCompactList}\item 
+float \hyperlink{class_mob_ac2a881584e2fa3224da656a775f17284}{hp\+Max}\hypertarget{class_mob_ac2a881584e2fa3224da656a775f17284}{}\label{class_mob_ac2a881584e2fa3224da656a775f17284}
 
-\item 
-float {\bfseries mp\+Current}\hypertarget{class_mob_ae1388056fe541060e8c1607ae561801f}{}\label{class_mob_ae1388056fe541060e8c1607ae561801f}
+\begin{DoxyCompactList}\small\item\em how much hit points this \hyperlink{class_mob}{Mob} can have at max \end{DoxyCompactList}\item 
+float \hyperlink{class_mob_ae1388056fe541060e8c1607ae561801f}{mp\+Current}\hypertarget{class_mob_ae1388056fe541060e8c1607ae561801f}{}\label{class_mob_ae1388056fe541060e8c1607ae561801f}
 
-\item 
-float {\bfseries mp\+Max}\hypertarget{class_mob_a8156e952a713baa462990ce635bf9ae8}{}\label{class_mob_a8156e952a713baa462990ce635bf9ae8}
+\begin{DoxyCompactList}\small\item\em how much mana points this \hyperlink{class_mob}{Mob} has \end{DoxyCompactList}\item 
+float \hyperlink{class_mob_a8156e952a713baa462990ce635bf9ae8}{mp\+Max}\hypertarget{class_mob_a8156e952a713baa462990ce635bf9ae8}{}\label{class_mob_a8156e952a713baa462990ce635bf9ae8}
 
-\item 
+\begin{DoxyCompactList}\small\item\em how much mana points this \hyperlink{class_mob}{Mob} can have at max \end{DoxyCompactList}\item 
 int \hyperlink{class_mob_a30bc4209cc6c6294cd3c68943317e682}{exp}\hypertarget{class_mob_a30bc4209cc6c6294cd3c68943317e682}{}\label{class_mob_a30bc4209cc6c6294cd3c68943317e682}
 
 \begin{DoxyCompactList}\small\item\em how much this \hyperlink{class_mob}{Mob} has accumulated experience in it\textquotesingle{}s life. Important for leveling up \end{DoxyCompactList}\item 
 Actor $\ast$ \hyperlink{class_mob_a1bf86299dea0aa82c773a3b8d04d0593}{target}\hypertarget{class_mob_a1bf86299dea0aa82c773a3b8d04d0593}{}\label{class_mob_a1bf86299dea0aa82c773a3b8d04d0593}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{class_mob}{Mob} or \hyperlink{class_building}{Building} this mob is going to. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_mob}{Mob} or \hyperlink{class_construction}{Construction} this mob is going to. \end{DoxyCompactList}\item 
 \hyperlink{class_mob}{Mob} $\ast$ \hyperlink{class_mob_a07f79a9fd434b9b26098b3b6d5d4a93e}{threats}\hypertarget{class_mob_a07f79a9fd434b9b26098b3b6d5d4a93e}{}\label{class_mob_a07f79a9fd434b9b26098b3b6d5d4a93e}
 
-\begin{DoxyCompactList}\small\item\em list of Mobs that damaged this \hyperlink{class_mob}{Mob} and should be rewarded for killing it \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em list of Mobs that damaged this \hyperlink{class_mob}{Mob} and should be rewarded for killing it \end{DoxyCompactList}\item 
+\hyperlink{class_construction}{Construction} $\ast$ \hyperlink{class_mob_ad3824bdc42d4041e184201c7801ab35e}{home}\hypertarget{class_mob_ad3824bdc42d4041e184201c7801ab35e}{}\label{class_mob_ad3824bdc42d4041e184201c7801ab35e}
+
+\begin{DoxyCompactList}\small\item\em reference to this \hyperlink{class_mob}{Mob} home \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -76,10 +91,6 @@ Living form moving and taking actions in the World.
 \index{Mob@{Mob}!Goals@{Goals}}
 \index{Goals@{Goals}!Mob@{Mob}}
 \subsubsection[{\texorpdfstring{Goals}{Goals}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Mob\+::\+Goals}\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_mob_a886346a9f913203df0797f2c84dd8962}{}\label{class_mob_a886346a9f913203df0797f2c84dd8962}
-
-
-Goals enum. 
-
 This enum holds what\textquotesingle{}s in mind of the \hyperlink{class_mob}{Mob}. \begin{Desc}
 \item[Enumerator]\par
 \begin{description}
@@ -91,7 +102,7 @@ grind\hypertarget{class_mob_a886346a9f913203df0797f2c84dd8962aa72b321b3750725507
 explore\hypertarget{class_mob_a886346a9f913203df0797f2c84dd8962a114d85e85d882dd8bf2be34208450b6c}{}\label{class_mob_a886346a9f913203df0797f2c84dd8962a114d85e85d882dd8bf2be34208450b6c}
 }]\hyperlink{class_mob}{Mob} is bored and is going to just walk around his home, it mind find something intrested, like treasure or death \index{upgrade@{upgrade}!Mob@{Mob}}\index{Mob@{Mob}!upgrade@{upgrade}}\item[{\em 
 upgrade\hypertarget{class_mob_a886346a9f913203df0797f2c84dd8962ac9be3f62a039d2a4c5a63146a03a307d}{}\label{class_mob_a886346a9f913203df0797f2c84dd8962ac9be3f62a039d2a4c5a63146a03a307d}
-}]\hyperlink{class_mob}{Mob(rather only advanturers)} has achieved enought wealth to upgrade it\textquotesingle{}s equipment or maybe change class \end{description}
+}]\hyperlink{class_mob}{Mob} (rather only \hyperlink{class_hero}{Hero}) has achieved enought wealth to upgrade it\textquotesingle{}s equipment or maybe change class \end{description}
 \end{Desc}
 
 
