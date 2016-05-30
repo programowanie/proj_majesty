@@ -12,18 +12,17 @@ Living form moving and taking actions in the World.
 Inheritance diagram for Mob\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[height=2.000000cm]{class_mob}
+\includegraphics[height=3.000000cm]{class_mob}
 \end{center}
 \end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_mob_1_1damage}{damage}
+\begin{DoxyCompactList}\small\item\em how much damage this deals per attack. Keeps minimum and maxium amount \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-bool \hyperlink{class_mob_af124fd088b64d10dde3eef2f5ec9f139}{take\+Damage} (float pure\+Damage)\hypertarget{class_mob_af124fd088b64d10dde3eef2f5ec9f139}{}\label{class_mob_af124fd088b64d10dde3eef2f5ec9f139}
-
-\begin{DoxyCompactList}\small\item\em reduce hp by amount of pure\+Damage reduced by \hyperlink{class_mob}{Mob} armor or skills, returns true if \hyperlink{class_mob}{Mob} died \end{DoxyCompactList}\item 
-void \hyperlink{class_mob_a07546ec7a5028846090157d51095904b}{die} ()\hypertarget{class_mob_a07546ec7a5028846090157d51095904b}{}\label{class_mob_a07546ec7a5028846090157d51095904b}
-
-\begin{DoxyCompactList}\small\item\em give gold to mobs that killed this \hyperlink{class_mob}{Mob}, play death anim etc. \end{DoxyCompactList}\item 
 Goal \hyperlink{class_mob_ac949a1e6a9a60efd432adea5a4abdeb8}{decide\+What\+Next} ()\hypertarget{class_mob_ac949a1e6a9a60efd432adea5a4abdeb8}{}\label{class_mob_ac949a1e6a9a60efd432adea5a4abdeb8}
 
 \begin{DoxyCompactList}\small\item\em after achieving goal think what\textquotesingle{}s your next goal(ie. if you completed quest either go rest if you are wounded or go to blacksmith to get better gear) \end{DoxyCompactList}\item 
@@ -56,15 +55,9 @@ string \hyperlink{class_mob_a1adcb405b2a4647bfb2471b1283b9477}{name}\hypertarget
 \begin{DoxyCompactList}\small\item\em name of this mob \end{DoxyCompactList}\item 
 \hyperlink{class_mob_a886346a9f913203df0797f2c84dd8962}{Goals} \hyperlink{class_mob_ad6c2e1b70a39551fd39b25002dac55b1}{goal}
 \begin{DoxyCompactList}\small\item\em goal this \hyperlink{class_mob}{Mob} is trying to achieve, \end{DoxyCompactList}\item 
-float \hyperlink{class_mob_a5a84c7649f3774da15780caa9f21aabc}{hp\+Current}\hypertarget{class_mob_a5a84c7649f3774da15780caa9f21aabc}{}\label{class_mob_a5a84c7649f3774da15780caa9f21aabc}
-
-\begin{DoxyCompactList}\small\item\em how much hit points this \hyperlink{class_mob}{Mob} has \end{DoxyCompactList}\item 
-float \hyperlink{class_mob_ac2a881584e2fa3224da656a775f17284}{hp\+Max}\hypertarget{class_mob_ac2a881584e2fa3224da656a775f17284}{}\label{class_mob_ac2a881584e2fa3224da656a775f17284}
-
-\begin{DoxyCompactList}\small\item\em how much hit points this \hyperlink{class_mob}{Mob} can have at max \end{DoxyCompactList}\item 
 float \hyperlink{class_mob_ae1388056fe541060e8c1607ae561801f}{mp\+Current}\hypertarget{class_mob_ae1388056fe541060e8c1607ae561801f}{}\label{class_mob_ae1388056fe541060e8c1607ae561801f}
 
-\begin{DoxyCompactList}\small\item\em how much mana points this \hyperlink{class_mob}{Mob} has \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em how much hit points this \hyperlink{class_mob}{Mob} has \end{DoxyCompactList}\item 
 float \hyperlink{class_mob_a8156e952a713baa462990ce635bf9ae8}{mp\+Max}\hypertarget{class_mob_a8156e952a713baa462990ce635bf9ae8}{}\label{class_mob_a8156e952a713baa462990ce635bf9ae8}
 
 \begin{DoxyCompactList}\small\item\em how much mana points this \hyperlink{class_mob}{Mob} can have at max \end{DoxyCompactList}\item 
@@ -121,4 +114,4 @@ goal this \hyperlink{class_mob}{Mob} is trying to achieve,
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-D\+:/proj\+\_\+majesty/Mob.\+h\end{DoxyCompactItemize}
+D\+:/proj\+\_\+majesty/\+Headers/Mob.\+h\end{DoxyCompactItemize}

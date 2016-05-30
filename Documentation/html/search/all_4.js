@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['hero',['Hero',['../class_hero.html',1,'']]],
-  ['home',['Home',['../class_home.html',1,'Home'],['../class_mob.html#ad3824bdc42d4041e184201c7801ab35e',1,'Mob::home()']]],
-  ['hpcurrent',['hpCurrent',['../class_construction.html#a9c4cd0e1175cc00691bda4797317f240',1,'Construction::hpCurrent()'],['../class_mob.html#a5a84c7649f3774da15780caa9f21aabc',1,'Mob::hpCurrent()']]],
-  ['hpmax',['hpMax',['../class_construction.html#a86e513fbc8ff981eba3331438b9e3d65',1,'Construction::hpMax()'],['../class_mob.html#ac2a881584e2fa3224da656a775f17284',1,'Mob::hpMax()']]]
+  ['goal',['goal',['../class_mob.html#ad6c2e1b70a39551fd39b25002dac55b1',1,'Mob']]],
+  ['goals',['Goals',['../class_mob.html#a886346a9f913203df0797f2c84dd8962',1,'Mob']]],
+  ['goldcarried',['goldCarried',['../class_damageable.html#ad5f2bf4daee7be1f1d673e0d5591dad0',1,'Damageable']]],
+  ['goldreward',['goldReward',['../class_damageable.html#a29ecf4aca234318222ff32a33826656e',1,'Damageable']]],
+  ['grind',['grind',['../class_mob.html#a886346a9f913203df0797f2c84dd8962aa72b321b37507255070e236e133616f9',1,'Mob']]],
+  ['guild',['Guild',['../class_guild.html',1,'Guild'],['../class_guild.html#a8fd4c37c93889d371c363309be413cd6',1,'Guild::Guild()']]]
 ];

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['takedamage',['takeDamage',['../class_mob.html#af124fd088b64d10dde3eef2f5ec9f139',1,'Mob']]],
-  ['target',['target',['../class_mob.html#a1bf86299dea0aa82c773a3b8d04d0593',1,'Mob']]],
-  ['threats',['threats',['../class_construction.html#ab55201e2b08ad7a87285e047d9530dee',1,'Construction::threats()'],['../class_mob.html#a07f79a9fd434b9b26098b3b6d5d4a93e',1,'Mob::threats()']]]
+  ['rest',['rest',['../class_mob.html#a886346a9f913203df0797f2c84dd8962a3d18c0a90658cc4872eed0afe28790b4',1,'Mob']]]
 ];

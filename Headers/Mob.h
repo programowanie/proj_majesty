@@ -1,13 +1,9 @@
-
-
-
-
 //! \brief Living form moving and taking actions in the World
 
 /*!
 	Mob lives in world moving taking actions and interacting with another mobs and enviorment. Everybody from dire rat to king sitting in his throne room is a mob.
 */
-class Mob
+class Mob : Damagable
 {
 protected:
    
@@ -17,18 +13,17 @@ protected:
 	explore, /*!< Mob is bored and is going to just walk around his home, it mind find something intrested, like treasure or death */
 	upgrade /*!< Mob (rather only Hero) has achieved enought wealth to upgrade it's equipment or maybe change class */
 	};
+	
 	//!   name of this mob
 	string name;		
 	//! goal this Mob is trying to achieve, \sa Goals
 	Goals goal;			
 	//! how much hit points this Mob has
-	float hpCurrent;
-	//! how much hit points this Mob can have at max
-	float hpMax;
-	//! how much mana points this Mob has
 	float mpCurrent;
 	//! how much mana points this Mob can have at max
 	float mpMax;
+	//! how much damage this deals per attack. Keeps minimum and maxium amount
+	struct damage {float min, float max}; 
 	//! how much this Mob has accumulated experience in it's life. Important for leveling up
 	int exp;			
 	//! Mob or Construction this mob is going to
@@ -39,10 +34,8 @@ protected:
 	Construction *home;
 public:
 	Mob();
-	 //! reduce hp by amount of pureDamage reduced by Mob armor or skills, returns true if Mob died
-	bool takeDamage(float pureDamage); 	
-	//!give gold to mobs that killed this Mob, play death anim etc.
-	void die(); 						
+	
+							
 	//! after achieving goal think what's your next goal(ie. if you completed quest either go rest if you are wounded or go to blacksmith to get better gear)
 	Goal decideWhatNext(); 		
 	//! choose Actor matching your goal(ie. if you are going to grind, find hostile Mob with low level and high reward, if you are going to upgrade find adequate shop, if rest - nearest inn)	

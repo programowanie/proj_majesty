@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exp',['exp',['../class_mob.html#a30bc4209cc6c6294cd3c68943317e682',1,'Mob']]]
+  ['armor',['armor',['../class_damageable.html#a7b4306631ce2d7dd8e50000b352940e4',1,'Damageable']]]
 ];

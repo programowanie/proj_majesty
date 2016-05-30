@@ -1,0 +1,58 @@
+\hypertarget{class_damageable}{}\section{Damageable Class Reference}
+\label{class_damageable}\index{Damageable@{Damageable}}
+
+
+Members of this class may be damaged.  
+
+
+
+
+{\ttfamily \#include $<$Damageable.\+h$>$}
+
+Inheritance diagram for Damageable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_damageable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_damageable_a61f6bcf8018bd7b126245f55ef29cd14}{die} ()\hypertarget{class_damageable_a61f6bcf8018bd7b126245f55ef29cd14}{}\label{class_damageable_a61f6bcf8018bd7b126245f55ef29cd14}
+
+\begin{DoxyCompactList}\small\item\em give gold to mobs that killed this \hyperlink{class_mob}{Mob}, play death anim etc. \end{DoxyCompactList}\item 
+bool \hyperlink{class_damageable_aa12cca043f17d936f5567fd08cd073af}{take\+Damage} (float pure\+Damage)\hypertarget{class_damageable_aa12cca043f17d936f5567fd08cd073af}{}\label{class_damageable_aa12cca043f17d936f5567fd08cd073af}
+
+\begin{DoxyCompactList}\small\item\em reduce hp by amount of pure\+Damage reduced by this armor or skills, returns true if this died \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_damageable_a74600fde6cf8e5dcd88ddce654500496}{hp\+Current}\hypertarget{class_damageable_a74600fde6cf8e5dcd88ddce654500496}{}\label{class_damageable_a74600fde6cf8e5dcd88ddce654500496}
+
+\begin{DoxyCompactList}\small\item\em how much hit points this has \end{DoxyCompactList}\item 
+float \hyperlink{class_damageable_ac40b87477089440eff43ee438daa34d0}{hp\+Max}\hypertarget{class_damageable_ac40b87477089440eff43ee438daa34d0}{}\label{class_damageable_ac40b87477089440eff43ee438daa34d0}
+
+\begin{DoxyCompactList}\small\item\em how much hit points this can have at max \end{DoxyCompactList}\item 
+\hyperlink{class_mob}{Mob} $\ast$ \hyperlink{class_damageable_a2d91b79bfd5140c1cc62a2f7b96dd9f7}{threats}\hypertarget{class_damageable_a2d91b79bfd5140c1cc62a2f7b96dd9f7}{}\label{class_damageable_a2d91b79bfd5140c1cc62a2f7b96dd9f7}
+
+\begin{DoxyCompactList}\small\item\em list of Mobs that damaged this \hyperlink{class_mob}{Mob} and should be rewarded for killing it \end{DoxyCompactList}\item 
+int \hyperlink{class_damageable_a31f2ef8923b62447291f386807fccbab}{exp\+Reward}\hypertarget{class_damageable_a31f2ef8923b62447291f386807fccbab}{}\label{class_damageable_a31f2ef8923b62447291f386807fccbab}
+
+\begin{DoxyCompactList}\small\item\em amount of experience that should be granted for killing this \end{DoxyCompactList}\item 
+int \hyperlink{class_damageable_a29ecf4aca234318222ff32a33826656e}{gold\+Reward}\hypertarget{class_damageable_a29ecf4aca234318222ff32a33826656e}{}\label{class_damageable_a29ecf4aca234318222ff32a33826656e}
+
+\begin{DoxyCompactList}\small\item\em amount of gold that should be granted for killing this \end{DoxyCompactList}\item 
+int \hyperlink{class_damageable_ad5f2bf4daee7be1f1d673e0d5591dad0}{gold\+Carried}\hypertarget{class_damageable_ad5f2bf4daee7be1f1d673e0d5591dad0}{}\label{class_damageable_ad5f2bf4daee7be1f1d673e0d5591dad0}
+
+\begin{DoxyCompactList}\small\item\em amount of gold carrier by this \end{DoxyCompactList}\item 
+float \hyperlink{class_damageable_a7b4306631ce2d7dd8e50000b352940e4}{armor}\hypertarget{class_damageable_a7b4306631ce2d7dd8e50000b352940e4}{}\label{class_damageable_a7b4306631ce2d7dd8e50000b352940e4}
+
+\begin{DoxyCompactList}\small\item\em how much damage this can resist each time it\textquotesingle{}s attacked \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Members of this class may be damaged. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/proj\+\_\+majesty/\+Headers/Damageable.\+h\end{DoxyCompactItemize}

@@ -38,7 +38,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -84,6 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -103,20 +103,18 @@ Inheritance diagram for Mob:</div>
  <div class="center">
   <img src="class_mob.png" usemap="#Mob_map" alt=""/>
   <map id="Mob_map" name="Mob_map">
-<area href="class_hero.html" title="Independent individual seeking fame, gold or just advanture slaying beastes and compleating quests..." alt="Hero" shape="rect" coords="0,56,40,80"/>
+<area href="class_hero.html" title="Independent individual seeking fame, gold or just advanture slaying beastes and compleating quests..." alt="Hero" shape="rect" coords="0,112,75,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mob_1_1damage.html">damage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much damage this deals per attack. Keeps minimum and maxium amount  <a href="struct_mob_1_1damage.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af124fd088b64d10dde3eef2f5ec9f139"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af124fd088b64d10dde3eef2f5ec9f139"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#af124fd088b64d10dde3eef2f5ec9f139">takeDamage</a> (float pureDamage)</td></tr>
-<tr class="memdesc:af124fd088b64d10dde3eef2f5ec9f139"><td class="mdescLeft">&#160;</td><td class="mdescRight">reduce hp by amount of pureDamage reduced by <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> armor or skills, returns true if <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> died <br /></td></tr>
-<tr class="separator:af124fd088b64d10dde3eef2f5ec9f139"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07546ec7a5028846090157d51095904b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07546ec7a5028846090157d51095904b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a07546ec7a5028846090157d51095904b">die</a> ()</td></tr>
-<tr class="memdesc:a07546ec7a5028846090157d51095904b"><td class="mdescLeft">&#160;</td><td class="mdescRight">give gold to mobs that killed this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a>, play death anim etc. <br /></td></tr>
-<tr class="separator:a07546ec7a5028846090157d51095904b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac949a1e6a9a60efd432adea5a4abdeb8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac949a1e6a9a60efd432adea5a4abdeb8"></a>
 Goal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#ac949a1e6a9a60efd432adea5a4abdeb8">decideWhatNext</a> ()</td></tr>
 <tr class="memdesc:ac949a1e6a9a60efd432adea5a4abdeb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">after achieving goal think what's your next goal(ie. if you completed quest either go rest if you are wounded or go to blacksmith to get better gear) <br /></td></tr>
@@ -131,11 +129,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:af89dfe24c4bea6d4fea6affd0b752c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a014041e72f2c65a2eabe313e3f175de0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a014041e72f2c65a2eabe313e3f175de0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a014041e72f2c65a2eabe313e3f175de0">enter</a> (<a class="el" href="class_home.html">Home</a> <a class="el" href="class_mob.html#ad3824bdc42d4041e184201c7801ab35e">home</a>)</td></tr>
-<tr class="memdesc:a014041e72f2c65a2eabe313e3f175de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">enter <a class="el" href="class_home.html" title="Interface for Constructions capable of giving shelter, like Monster&#39;s Lair, Peasant&#39;s hut or Hero&#39;s G...">Home</a> <br /></td></tr>
+<tr class="memdesc:a014041e72f2c65a2eabe313e3f175de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">enter <a class="el" href="class_home.html" title="Members of this class may be entered and be inhabited. ">Home</a> <br /></td></tr>
 <tr class="separator:a014041e72f2c65a2eabe313e3f175de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeac9e7dd6c5da44ad88f3458019c66ab"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeac9e7dd6c5da44ad88f3458019c66ab"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#aeac9e7dd6c5da44ad88f3458019c66ab">exit</a> ()</td></tr>
-<tr class="memdesc:aeac9e7dd6c5da44ad88f3458019c66ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">exit <a class="el" href="class_home.html" title="Interface for Constructions capable of giving shelter, like Monster&#39;s Lair, Peasant&#39;s hut or Hero&#39;s G...">Home</a> <br /></td></tr>
+<tr class="memdesc:aeac9e7dd6c5da44ad88f3458019c66ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">exit <a class="el" href="class_home.html" title="Members of this class may be entered and be inhabited. ">Home</a> <br /></td></tr>
 <tr class="separator:aeac9e7dd6c5da44ad88f3458019c66ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
@@ -156,17 +154,9 @@ string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="memitem:ad6c2e1b70a39551fd39b25002dac55b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_mob.html#a886346a9f913203df0797f2c84dd8962">Goals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#ad6c2e1b70a39551fd39b25002dac55b1">goal</a></td></tr>
 <tr class="memdesc:ad6c2e1b70a39551fd39b25002dac55b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">goal this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> is trying to achieve,  <a href="#ad6c2e1b70a39551fd39b25002dac55b1">More...</a><br /></td></tr>
 <tr class="separator:ad6c2e1b70a39551fd39b25002dac55b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a84c7649f3774da15780caa9f21aabc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a84c7649f3774da15780caa9f21aabc"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a5a84c7649f3774da15780caa9f21aabc">hpCurrent</a></td></tr>
-<tr class="memdesc:a5a84c7649f3774da15780caa9f21aabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much hit points this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> has <br /></td></tr>
-<tr class="separator:a5a84c7649f3774da15780caa9f21aabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2a881584e2fa3224da656a775f17284"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac2a881584e2fa3224da656a775f17284"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#ac2a881584e2fa3224da656a775f17284">hpMax</a></td></tr>
-<tr class="memdesc:ac2a881584e2fa3224da656a775f17284"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much hit points this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> can have at max <br /></td></tr>
-<tr class="separator:ac2a881584e2fa3224da656a775f17284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1388056fe541060e8c1607ae561801f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1388056fe541060e8c1607ae561801f"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#ae1388056fe541060e8c1607ae561801f">mpCurrent</a></td></tr>
-<tr class="memdesc:ae1388056fe541060e8c1607ae561801f"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much mana points this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> has <br /></td></tr>
+<tr class="memdesc:ae1388056fe541060e8c1607ae561801f"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much hit points this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> has <br /></td></tr>
 <tr class="separator:ae1388056fe541060e8c1607ae561801f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8156e952a713baa462990ce635bf9ae8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8156e952a713baa462990ce635bf9ae8"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a8156e952a713baa462990ce635bf9ae8">mpMax</a></td></tr>
@@ -253,7 +243,7 @@ Actor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/proj_majesty/<a class="el" href="_mob_8h_source.html">Mob.h</a></li>
+<li>D:/proj_majesty/Headers/<a class="el" href="_mob_8h_source.html">Mob.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

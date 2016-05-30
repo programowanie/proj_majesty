@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['enter',['enter',['../class_mob.html#a014041e72f2c65a2eabe313e3f175de0',1,'Mob']]],
-  ['exit',['exit',['../class_mob.html#aeac9e7dd6c5da44ad88f3458019c66ab',1,'Mob']]],
-  ['exp',['exp',['../class_mob.html#a30bc4209cc6c6294cd3c68943317e682',1,'Mob']]],
-  ['explore',['explore',['../class_mob.html#a886346a9f913203df0797f2c84dd8962a114d85e85d882dd8bf2be34208450b6c',1,'Mob']]]
+  ['damage',['damage',['../struct_mob_1_1damage.html',1,'Mob']]],
+  ['damageable',['Damageable',['../class_damageable.html',1,'']]],
+  ['decidewhatnext',['decideWhatNext',['../class_mob.html#ac949a1e6a9a60efd432adea5a4abdeb8',1,'Mob']]],
+  ['die',['die',['../class_damageable.html#a61f6bcf8018bd7b126245f55ef29cd14',1,'Damageable']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['choosetarget',['chooseTarget',['../class_mob.html#a80987418449007527dea30234099c301',1,'Mob']]],
-  ['construction',['Construction',['../class_construction.html',1,'']]]
+  ['armor',['armor',['../class_damageable.html#a7b4306631ce2d7dd8e50000b352940e4',1,'Damageable']]]
 ];

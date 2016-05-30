@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['name',['name',['../class_construction.html#a1c41965939bcc09f9c55a6bb8f15b82e',1,'Construction::name()'],['../class_mob.html#a1adcb405b2a4647bfb2471b1283b9477',1,'Mob::name()']]]
+  ['mpcurrent',['mpCurrent',['../class_mob.html#ae1388056fe541060e8c1607ae561801f',1,'Mob']]],
+  ['mpmax',['mpMax',['../class_mob.html#a8156e952a713baa462990ce635bf9ae8',1,'Mob']]]
 ];
