@@ -12,10 +12,11 @@ protected:
 	
 	//!  what kind of hero lives in this guild
 	Hero *heroType; 
-	//! brings new Hero to live, adds him to list of habitants of this Guild
 	
 	public:
 	void Guild();
+	//! brings new Hero to live, adds him to list of habitants of this Guild
+	
 	void spawnHero();
 	
 };

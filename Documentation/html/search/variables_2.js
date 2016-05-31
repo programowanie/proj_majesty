@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['goal',['goal',['../class_mob.html#ad6c2e1b70a39551fd39b25002dac55b1',1,'Mob']]],
-  ['goldcarried',['goldCarried',['../class_damageable.html#ad5f2bf4daee7be1f1d673e0d5591dad0',1,'Damageable']]],
-  ['goldreward',['goldReward',['../class_damageable.html#a29ecf4aca234318222ff32a33826656e',1,'Damageable']]]
+  ['exp',['exp',['../class_mob.html#a30bc4209cc6c6294cd3c68943317e682',1,'Mob']]],
+  ['expreward',['expReward',['../class_damageable.html#a31f2ef8923b62447291f386807fccbab',1,'Damageable']]]
 ];

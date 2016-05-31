@@ -3,7 +3,7 @@
 /*!
 	Mob lives in world moving taking actions and interacting with another mobs and enviorment. Everybody from dire rat to king sitting in his throne room is a mob.
 */
-class Mob : Damagable
+class Mob : Damageable
 {
 protected:
    
@@ -23,13 +23,11 @@ protected:
 	//! how much mana points this Mob can have at max
 	float mpMax;
 	//! how much damage this deals per attack. Keeps minimum and maxium amount
-	struct damage {float min, float max}; 
+	range damage;
 	//! how much this Mob has accumulated experience in it's life. Important for leveling up
 	int exp;			
 	//! Mob or Construction this mob is going to
 	Actor *target; 		
-	//!  list of Mobs that damaged this Mob and should be rewarded for killing it
-	Mob *threats; 
 	//!  reference to this Mob home
 	Construction *home;
 public:

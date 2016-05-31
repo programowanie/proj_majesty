@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hero',['Hero',['../class_hero.html',1,'']]],
-  ['home',['Home',['../class_home.html',1,'']]]
+  ['guild',['Guild',['../class_guild.html',1,'']]]
 ];

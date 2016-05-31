@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['mob',['Mob',['../class_mob.html',1,'']]],
-  ['mpcurrent',['mpCurrent',['../class_mob.html#ae1388056fe541060e8c1607ae561801f',1,'Mob']]],
-  ['mpmax',['mpMax',['../class_mob.html#a8156e952a713baa462990ce635bf9ae8',1,'Mob']]]
+  ['legendary',['legendary',['../class_item.html#ab29041c9ccfd11419abe6f39ac90bb6aaacb632a48a05151530bce1df85b0fdbb',1,'Item']]]
 ];

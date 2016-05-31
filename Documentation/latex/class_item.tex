@@ -1,0 +1,75 @@
+\hypertarget{class_item}{}\section{Item Class Reference}
+\label{class_item}\index{Item@{Item}}
+
+
+\hyperlink{class_item}{Item} represents everything that might became possession of \hyperlink{class_hero}{Hero}, like weapon, potions and armors.  
+
+
+
+
+{\ttfamily \#include $<$Item.\+h$>$}
+
+Inheritance diagram for Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_item}
+\end{center}
+\end{figure}
+\subsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6a}{Rarity} \{ \\*
+\hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa6c9a50ca47b7a35469e9ba7feafe0c02}{poor}, 
+\hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa500ded4262e0d28d13fa893e29e4663c}{common}, 
+\hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa8f0fcc9917f33df2de8d655460e28e9f}{uncommon}, 
+\hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa129fb8ce09940319e8cb9a83d76224d6}{rare}, 
+\\*
+\hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa673dee240d5464c9281f768c1699258b}{epic}, 
+\hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6aaacb632a48a05151530bce1df85b0fdbb}{legendary}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_item_ab29041c9ccfd11419abe6f39ac90bb6a}{Rarity} \hyperlink{class_item_a1f3f4bfb63dd89ef503b7295d7d89dc2}{rarity}\hypertarget{class_item_a1f3f4bfb63dd89ef503b7295d7d89dc2}{}\label{class_item_a1f3f4bfb63dd89ef503b7295d7d89dc2}
+
+\begin{DoxyCompactList}\small\item\em sa Rarity \end{DoxyCompactList}\item 
+string \hyperlink{class_item_a406cde7962a6b42a66b4a53c9a26db2c}{name}\hypertarget{class_item_a406cde7962a6b42a66b4a53c9a26db2c}{}\label{class_item_a406cde7962a6b42a66b4a53c9a26db2c}
+
+\begin{DoxyCompactList}\small\item\em name of this item \end{DoxyCompactList}\item 
+float \hyperlink{class_item_a3aaeadb0f6d5894504328e4ca91786b6}{value}\hypertarget{class_item_a3aaeadb0f6d5894504328e4ca91786b6}{}\label{class_item_a3aaeadb0f6d5894504328e4ca91786b6}
+
+\begin{DoxyCompactList}\small\item\em value of item, in most cases it\textquotesingle{}s market price as well \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_item}{Item} represents everything that might became possession of \hyperlink{class_hero}{Hero}, like weapon, potions and armors. 
+
+
+
+\subsection{Member Enumeration Documentation}
+\index{Item@{Item}!Rarity@{Rarity}}
+\index{Rarity@{Rarity}!Item@{Item}}
+\subsubsection[{\texorpdfstring{Rarity}{Rarity}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Item\+::\+Rarity}\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_item_ab29041c9ccfd11419abe6f39ac90bb6a}{}\label{class_item_ab29041c9ccfd11419abe6f39ac90bb6a}
+How rare is this -\/ will be useful for rolling loot Items of all tiers of rarity may be found as loot, tiers common to rare might be bought in stores. \begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{poor@{poor}!Item@{Item}}\index{Item@{Item}!poor@{poor}}\item[{\em 
+poor\hypertarget{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa6c9a50ca47b7a35469e9ba7feafe0c02}{}\label{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa6c9a50ca47b7a35469e9ba7feafe0c02}
+}]items usually looted from normal monsters, like rusty swords and blunt axes \index{common@{common}!Item@{Item}}\index{Item@{Item}!common@{common}}\item[{\em 
+common\hypertarget{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa500ded4262e0d28d13fa893e29e4663c}{}\label{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa500ded4262e0d28d13fa893e29e4663c}
+}]items made by regular craftsman, widely sell in stores \index{uncommon@{uncommon}!Item@{Item}}\index{Item@{Item}!uncommon@{uncommon}}\item[{\em 
+uncommon\hypertarget{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa8f0fcc9917f33df2de8d655460e28e9f}{}\label{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa8f0fcc9917f33df2de8d655460e28e9f}
+}]items that are bit better, made by better craftsman \index{rare@{rare}!Item@{Item}}\index{Item@{Item}!rare@{rare}}\item[{\em 
+rare\hypertarget{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa129fb8ce09940319e8cb9a83d76224d6}{}\label{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa129fb8ce09940319e8cb9a83d76224d6}
+}]items of outstanding quality, often enchanted or made by real master of his craft \index{epic@{epic}!Item@{Item}}\index{Item@{Item}!epic@{epic}}\item[{\em 
+epic\hypertarget{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa673dee240d5464c9281f768c1699258b}{}\label{class_item_ab29041c9ccfd11419abe6f39ac90bb6aa673dee240d5464c9281f768c1699258b}
+}]best quality item that might be made by nowadays mortal \index{legendary@{legendary}!Item@{Item}}\index{Item@{Item}!legendary@{legendary}}\item[{\em 
+legendary\hypertarget{class_item_ab29041c9ccfd11419abe6f39ac90bb6aaacb632a48a05151530bce1df85b0fdbb}{}\label{class_item_ab29041c9ccfd11419abe6f39ac90bb6aaacb632a48a05151530bce1df85b0fdbb}
+}]things usually lying around and dragon\textquotesingle{}s piles of treasures or in ancient tombs \end{description}
+\end{Desc}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/proj\+\_\+majesty/\+Headers/Item.\+h\end{DoxyCompactItemize}

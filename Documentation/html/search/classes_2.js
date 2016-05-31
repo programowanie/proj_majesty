@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['guild',['Guild',['../class_guild.html',1,'']]]
+  ['damageable',['Damageable',['../class_damageable.html',1,'']]]
 ];

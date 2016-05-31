@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mob',['Mob',['../class_mob.html',1,'']]]
+  ['hero',['Hero',['../class_hero.html',1,'']]],
+  ['home',['Home',['../class_home.html',1,'']]]
 ];

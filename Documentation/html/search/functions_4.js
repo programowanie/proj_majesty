@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['interact',['interact',['../class_mob.html#af89dfe24c4bea6d4fea6affd0b752c04',1,'Mob']]]
+  ['roll',['roll',['../structrange.html#afef0daf40d07706db0ea52cea528b56d',1,'range']]]
 ];

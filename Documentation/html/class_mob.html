@@ -83,7 +83,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
@@ -103,16 +102,11 @@ Inheritance diagram for Mob:</div>
  <div class="center">
   <img src="class_mob.png" usemap="#Mob_map" alt=""/>
   <map id="Mob_map" name="Mob_map">
-<area href="class_hero.html" title="Independent individual seeking fame, gold or just advanture slaying beastes and compleating quests..." alt="Hero" shape="rect" coords="0,112,75,136"/>
+<area href="class_damageable.html" title="Members of this class may be damaged. " alt="Damageable" shape="rect" coords="0,0,82,24"/>
+<area href="class_hero.html" title="Independent individual seeking fame, gold or just advanture slaying beastes and compleating quests..." alt="Hero" shape="rect" coords="0,112,82,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_mob_1_1damage.html">damage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much damage this deals per attack. Keeps minimum and maxium amount  <a href="struct_mob_1_1damage.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac949a1e6a9a60efd432adea5a4abdeb8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac949a1e6a9a60efd432adea5a4abdeb8"></a>
@@ -162,6 +156,10 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a8156e952a713baa462990ce635bf9ae8">mpMax</a></td></tr>
 <tr class="memdesc:a8156e952a713baa462990ce635bf9ae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much mana points this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> can have at max <br /></td></tr>
 <tr class="separator:a8156e952a713baa462990ce635bf9ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ee5454e028e23885b78c4afe880a77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3ee5454e028e23885b78c4afe880a77"></a>
+<a class="el" href="structrange.html">range</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#aa3ee5454e028e23885b78c4afe880a77">damage</a></td></tr>
+<tr class="memdesc:aa3ee5454e028e23885b78c4afe880a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much damage this deals per attack. Keeps minimum and maxium amount <br /></td></tr>
+<tr class="separator:aa3ee5454e028e23885b78c4afe880a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30bc4209cc6c6294cd3c68943317e682"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30bc4209cc6c6294cd3c68943317e682"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a30bc4209cc6c6294cd3c68943317e682">exp</a></td></tr>
 <tr class="memdesc:a30bc4209cc6c6294cd3c68943317e682"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> has accumulated experience in it's life. Important for leveling up <br /></td></tr>
@@ -170,10 +168,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 Actor *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a1bf86299dea0aa82c773a3b8d04d0593">target</a></td></tr>
 <tr class="memdesc:a1bf86299dea0aa82c773a3b8d04d0593"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> or <a class="el" href="class_construction.html" title="Construction standing in the World. ">Construction</a> this mob is going to. <br /></td></tr>
 <tr class="separator:a1bf86299dea0aa82c773a3b8d04d0593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07f79a9fd434b9b26098b3b6d5d4a93e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07f79a9fd434b9b26098b3b6d5d4a93e"></a>
-<a class="el" href="class_mob.html">Mob</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#a07f79a9fd434b9b26098b3b6d5d4a93e">threats</a></td></tr>
-<tr class="memdesc:a07f79a9fd434b9b26098b3b6d5d4a93e"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of Mobs that damaged this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> and should be rewarded for killing it <br /></td></tr>
-<tr class="separator:a07f79a9fd434b9b26098b3b6d5d4a93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3824bdc42d4041e184201c7801ab35e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad3824bdc42d4041e184201c7801ab35e"></a>
 <a class="el" href="class_construction.html">Construction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mob.html#ad3824bdc42d4041e184201c7801ab35e">home</a></td></tr>
 <tr class="memdesc:ad3824bdc42d4041e184201c7801ab35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference to this <a class="el" href="class_mob.html" title="Living form moving and taking actions in the World. ">Mob</a> home <br /></td></tr>
